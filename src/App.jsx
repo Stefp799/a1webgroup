@@ -143,12 +143,12 @@ function App() {
             <div className="slide-text">Expert in Every Possible <span className="highlight">Digital Pipeline</span></div>
           </div>
           <div className="hero-slide">
-            <img src="/images/joe-solution2.webp" alt="Joe Delivers Solutions" />
-            <div className="slide-text">From Tangled Data...To<br/><span className="highlight">Clear Solutions</span></div>
-          </div>
-          <div className="hero-slide">
             <img src="/images/joe-tool4.jpg" alt="Joe's Professional Tools" />
             <div className="slide-text">Professional <span className="highlight">Digital Tools</span><br/>For Every Challenge</div>
+          </div>
+          <div className="hero-slide">
+            <img src="/images/joe-solution2.webp" alt="Joe Delivers Solutions" />
+            <div className="slide-text">From Tangled Data...To<br/><span className="highlight">Clear Solutions</span></div>
           </div>
         </div>
       </section>

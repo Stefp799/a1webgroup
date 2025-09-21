@@ -327,28 +327,8 @@ body {
   opacity: 1;
   transform: translateX(0) translateY(0);
 }
-/* Special styling for solution slide text */
-.hero-slide:nth-child(4) .slide-text {
-  background: transparent;
-  backdrop-filter: none;
-  bottom: 220px;
-  left: 150px;
-  font-size: 3.2rem;
-  padding: 0;
-  border-radius: 0;
-  max-width: 400px;
-  line-height: 1.0;
-  opacity: 0;
-  transform: translateX(-100px) translateY(50px);
-  transition: all 1.5s ease-out 0.5s;
-}
-.hero-slide:nth-child(4).active .slide-text {
-  opacity: 1;
-  transform: translateX(0) translateY(0);
-}
-
 /* Special styling for tools slide text */
-.hero-slide:nth-child(5) .slide-text {
+.hero-slide:nth-child(4) .slide-text {
   background: transparent;
   backdrop-filter: none;
   bottom: 180px;
@@ -360,6 +340,26 @@ body {
   line-height: 1.0;
   opacity: 0;
   transform: translateX(100px) translateY(50px);
+  transition: all 1.5s ease-out 0.5s;
+}
+.hero-slide:nth-child(4).active .slide-text {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
+
+/* Special styling for solution slide text */
+.hero-slide:nth-child(5) .slide-text {
+  background: transparent;
+  backdrop-filter: none;
+  bottom: 220px;
+  left: 150px;
+  font-size: 3.2rem;
+  padding: 0;
+  border-radius: 0;
+  max-width: 400px;
+  line-height: 1.0;
+  opacity: 0;
+  transform: translateX(-100px) translateY(50px);
   transition: all 1.5s ease-out 0.5s;
 }
 .hero-slide:nth-child(5).active .slide-text {
